@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #FFFFFF;
+  background-image: radial-gradient(#D8D8D8 12%, transparent 12%);
+  background-size: 1rem 1rem;
+}
+
+.foreground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100lvw;
+  height: 100lvh;
+  border-image: linear-gradient(to right, #B9ACDE 40%, #BBE289 60%);
+  border-image-slice: 1;
+  border-width: 1rem 1rem;
+  mix-blend-mode: multiply;
+  z-index: 16667215;
+  pointer-events: none;
+}
+
+@media (min-width: 640px) {
+  .foreground {
+    border-width: 1rem 2rem;
+  }
+}

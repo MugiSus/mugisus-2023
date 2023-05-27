@@ -1,0 +1,165 @@
+# -
+#   url: string
+#   image: string
+#   title: string
+#   date: Date
+#   content: string
+#   features: [string]
+
+-
+    url: https://www.mugisus.com/v?22aq
+    image: /creations/virtual-card.png
+    title: V-Card
+    date: 2023-01-17
+    content: |
+        少し前に3日間ほど入院し、それからあまり開発のモチベーションが戻ってこなかったのと、大量に学校の課題が溜まってしまったので、それらから気を紛らわすために療養も兼ねて作ったものです。
+        週末に美大の卒展へ足を運び、大量のインスピレーションを得、急に名刺をデザインしたくなり、早速デザインしたはいいものの、今度はそれを配布する手段がなかったので、3Dの動く名刺を作って仮想配布してみようということでできました。
+        名刺に描かれているバーコードとQRコードは、それぞれこのページにリダイレクトされています。実際にこの名刺を現実で配布し、現実と画面がリンクするような演出ができたらいいなと思います。
+    features: [pickup, powered-by-webgl, responsive, work-in-progress]
+
+-
+    url: https://openprocessing.org/sketch/1788651
+    image: /creations/pata-drop.png
+    title: pata-drop
+    date: 2023-01-09
+    content: |
+        大学「デザインとプログラミング」の最終課題で提出した作品です。
+        openprocessing(p5.js)で、ベクトルを活用した3D物理演算を実装しています。
+        任意のキーを叩くと球が降ってきて音を奏でます。
+    features: [powered-by-webgl]
+
+-
+    url: https://www.npmjs.com/package/world-timestamp
+    image: /creations/npm-package.png
+    title: world-timestamp
+    date: 2022-10-14
+    content: |
+        ウェブ上のサーバーから世界共通のタイムスタンプを取得するプロジェクトのためのnpmパッケージです。
+        プロジェクト "The Most Accurate Clock You Can Get" で使用されています。
+    features: [packages]
+
+-
+    url: https://themostaccurateclockyoucanget.vercel.app/
+    image: /creations/themostaccurateclockyoucanget.png
+    title: The Most Accurate Clock You Can Get
+    date: 2022-08-09
+    content: |
+        あなたが手に入れることのできる最も正確な時計です。GPSで緯度と経度を取得し、僅かな時差を可視化します。GPSを有効にしてお楽しみください。
+        (自作パッケージ "world-timestamp" を使用しています。)
+    features: [pickup, powered-by-webgl, pwa, responsive]
+
+-
+    url: https://reactmood.vercel.app/
+    image: /creations/reactmood.png
+    title: React:mood
+    date: 2022-05-07
+    content: |
+        オンライン会議やLTなどの視聴者のリアクションを色で計算・リアルタイムで反映し、全体の雰囲気を直感的に把握する、オンライン会議支援ツールです。
+        2022年5月初旬に開催されたKosenVenture社とゆめみ社による共同企画ハッカソンで提出した作品です。
+        アイデアを同チームの hachiya さんに頂きました。
+    features: [pickup, powered-by-canvas, responsive, firebase]
+-
+    url: https://www.mugisus.com/neighbours/
+    image: /creations/neighbours.png
+    title: neighbours
+    date: 2022-04-12
+    content: |
+        近い粒子と粒子が線で結ばれるよくあるネットワークモデルみたいなやつに、粒子同士が反発したり引き寄せたりするよくある分子モデルみたいなやつを組み合わせたものです。
+        反発力や引力の係数や粒子の臨界距離の他、さまざまなパラメータを変更できるUIが実装されています。
+    features: [pickup, powered-by-canvas, responsive]
+-
+    url: https://www.mugisus.com/genius/
+    image: /creations/genius.png
+    title: genius
+    date: 2022-03-05
+    content: |
+        かの有名なMITの "GeNiUS" Tシャツのように、入力された英文に最も適当な元素記号を当ててレイアウトするサイトです。DP法で計算しています。
+        ちなみに、元素記号のみで表せる最長の英単語は"nonrepresentationalisms"であることが知られています。
+    features: [responsive]
+-
+    url: https://www.mugisus.com/lifegameJS/
+    image: /creations/lifegameJS.png
+    title: lifegameJS
+    date: 2021-12-24
+    content: |
+        空間が無限のライフゲームです。
+        WebGLで実装してあるのでかなり速いです。
+        左クリックで追加、右クリックで再生・停止、右クリック+ドラッグで視点を移動します。
+        そのうちスマートフォンにも対応すると思います。
+    features: [powered-by-webgl]
+-
+    url: https://telport.mugisus.com/
+    image: /creations/telport.png
+    title: TELPort
+    date: 2021-11-03
+    content: |
+        2021年度未踏ジュニアで採択されたプロジェクトです。
+        「TELPort/テルポート：音波による高速通信プロトコル及び、スピーカーとマイクを介した送受信アプリ」
+        あらゆるデータを複数の周波数と振幅の合成波に変換し、空間と時間を活用した通信を提供するプロトコルです。
+        (説明文より抜粋)
+    features: [pickup, awarded, pwa, responsive]
+-
+    url: https://www.mugisus.com/misc/logicsim_v2/
+    image: /creations/logicsim-v2.png
+    title: logicsim_v2
+    date: 2021-03-21
+    content: |
+        canvasで描画する論理回路シミュレータの第二版です。
+        論理回路の計算は比較的高速ですが、canvasで凝ったグラフィックをしてしまったために、大変重いです。
+        UIはそのうちできます。できたら教えます。
+    features: [powered-by-canvas, work-in-progress]
+-
+    url: https://www.mugisus.com/misc/LogicSim/?theme=dark
+    image: /creations/logicsim.png
+    title: LogicSim
+    date: 2019-08-01
+    content: |
+        canvasで描画する論理回路シミュレータの初版です。
+    features: [powered-by-canvas]
+-
+    url: https://www.mugisus.com/misc/morser/
+    image: /creations/morser.png
+    title: morser
+    date: 2019-04-24
+    content: |
+        D,F,J,Kキーでモールス信号を打ち込みます。
+    features: [powered-by-canvas]
+-
+    url: https://www.mugisus.com/misc/wave/
+    image: /creations/wave.png
+    title: wave
+    date: 2018-11-19
+    content: |
+        Web開発最初期の作品です。クリックして波ができるだけです。
+    features: [powered-by-canvas, responsive]
+-
+    url: https://scratch.mit.edu/projects/136146086/
+    image: https://cdn.scratch.mit.edu/get_image/project/136146086_480x360.png
+    title: "[3D] Arrow & Ball with editor!"
+    date: 2017-05-20
+    content: |
+        2017年にScratchで制作したパズルゲームの第三版です。
+        ステージ作成機能とクラウド共有機能* があります。
+        (* 2020年のプラットフォーム仕様変更により、クラウド共有機能は事実上の廃止状態ですが、テキストでの出力・共有が可能です。)
+    features: [made-with-scratch]
+-
+    url: https://scratch.mit.edu/projects/119005799/
+    image: https://cdn.scratch.mit.edu/get_image/project/119005799_480x360.png
+    title: "Logic-Simulator [100%pen]"
+    date: 2016-10-11
+    content: |
+        2016年にScratchで制作した、タートルグラフィックスのみで描画される論理回路シミュレータです。
+        クラウド共有機能* があります。
+        (* 2020年のプラットフォーム仕様変更により、クラウド共有機能は事実上の廃止状態ですが、テキストでの出力・共有が可能です。)
+    features: [made-with-scratch]
+-
+    url: https://scratch.mit.edu/projects/45872854/
+    image: https://cdn.scratch.mit.edu/get_image/project/45872854_480x360.png
+    title: arrow & ball with editor!
+    date: 2015-02-09
+    content: |
+        2015年(小学5年)にScratchで制作したパズルゲームの初版です。
+        構想から実装まで全てを自分で完了した最初の作品です。
+        ステージ作成機能とクラウド共有機能* があります。
+        (* 2020年のプラットフォーム仕様変更により、クラウド共有機能は事実上の廃止状態です。)
+    features: [pickup, awarded, made-with-scratch]

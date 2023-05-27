@@ -1,0 +1,49 @@
+# <fearure id>:
+#   icon: string, Google Material Icons
+#   title: string
+#   filterDefault: boolean; optional; default: false
+
+pickup:
+    icon: push_pin
+    title: Pickup
+    filterDefault: true
+
+responsive:
+    icon: smartphone
+    title: Responsive
+
+pwa:
+    icon: install_mobile
+    title: Progressive Web App
+
+work-in-progress:
+    icon: build
+    title: Work in progress
+
+awarded:
+    icon: emoji_events
+    title: Awarded
+
+powered-by-webgl:
+    icon: auto_awesome
+    title: Powered by WebGL
+
+powered-by-canvas:
+    icon: palette
+    title: Powered by Canvas
+
+made-with-scratch:
+    icon: videogame_asset
+    title: Made with Scratch
+
+firebase:
+    icon: local_fire_department
+    title: Firebase
+
+drawings:
+    icon: draw
+    title: Drawings
+
+packages:
+    icon: inventory_2
+    title: Packages
